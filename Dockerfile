@@ -1,5 +1,5 @@
 FROM node:latest
 LABEL maintainer="Marcos Abraham Hernandez Bravo"
 
-RUN npm -g install bower
+RUN npm install -g bower
 WORKDIR /app
